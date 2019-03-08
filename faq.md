@@ -18,9 +18,8 @@ description: 一些问答，如果有疑问可以跟我讨论，我会选择有�
 
 ## fork后如果远程发生了改变，如何也更新自己的代码。或者发起Pull Request时发生了冲突，如何解决？
 
-在下述页面issue和Pull Request的补充部分
+详见教程：利用GitHub进行协作开发
 
-{% page-ref page="shi-zhan-li-yong-github-jin-hang-xiao-zu-kai-fa.md" %}
 
 
 

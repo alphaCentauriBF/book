@@ -5,7 +5,7 @@ description: >-
 
 # GitHub向导
 
-> https://guides.github.com/activities/hello-world/
+> [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
 
 ## Hello World 项目
 
@@ -24,8 +24,6 @@ description: >-
 
 你的Hello，World仓库可以成为一个你存放灵感、源码或者与别人进行分享和交流的地方。
 
-
-
 #### 创建仓库的步骤
 
 1. 在右上角的头像旁有一个＋号，点击＋号并选择 **New repository**
@@ -33,11 +31,11 @@ description: >-
 3. 写下简短的描述
 4. 选择 **Initialize this repository with a README**.
 
- 下面给出图片以及说明
+   下面给出图片以及说明
 
-![&#x6B65;&#x9AA4;1](.gitbook/assets/image%20%2815%29.png)
+![步骤1](.gitbook/assets/image %2815%29.png)
 
-![&#x6B65;&#x9AA4;2&#x3001;3&#x3001;4](.gitbook/assets/image%20%2819%29.png)
+![步骤2、3、4](.gitbook/assets/image %2819%29.png)
 
 ## 第二步 创建分支
 
@@ -47,7 +45,7 @@ description: >-
 
 当你创建一个新的分支时，你会得到一份副本\(making a copy,or snapshot\)，当你在自己的分支进行工作而其他人对主干进行修改时，你可以拉取\(pull\)这些更新。
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image %2829%29.png)
 
 上述的图片表示了
 
@@ -64,7 +62,7 @@ description: >-
 3. 在输入框Find or create branch中输入分支名readme-edits以创建新的分支
 4. 点击Create Branch
 
-![&#x6B65;&#x9AA4;2&#x3001;3&#x3001;4](.gitbook/assets/image%20%284%29.png)
+![步骤2、3、4](.gitbook/assets/image %284%29.png)
 
 现在，你拥有两个分支了，他们看起来一样，但接下来我们会对新分支进行改变。
 
@@ -72,7 +70,11 @@ description: >-
 
 现在，你已经处于readme-edits分支\(master分支的复制\)了，如下图。
 
-![&#x5728;&#x5DE6;&#x4E0A;&#x89D2;&#x7684;Branch&#x6807;&#x7B7E;&#x4E2D;&#x6807;&#x8BC6;&#x4E86;&#x76EE;&#x524D;&#x6240;&#x5904;&#x4E8E;&#x7684;&#x5206;&#x652F;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x70B9;&#x51FB;&#x90A3;&#x4E2A;&#x6807;&#x7B7E;&#x4FEE;&#x6539;&#x76EE;&#x524D;&#x6240;&#x5904;&#x7684;&#x5206;&#x652F;&#x3002;](.gitbook/assets/image%20%2811%29.png)
+![在左上角的Branch标签中标识了目前所处于的分支。也可以点击那个标签修改目前所处的分支。](.gitbook/assets/image %2811%29.png)
+
+在Branch按钮处可以看到当前所处的分支:readme-edits
+
+---
 
 在GitHub中，保存修改被称为Commits，每个commit都有一个与之关联的commit信息\(message\)，用来解释为什么做这个修改等。从提交消息中，你和其他人都可以知道做出的修改的历史。
 
@@ -86,13 +88,21 @@ description: >-
 4. 对你的修改进行说明
 5. 点击Commit changes进行提交
 
-![&#x6B65;&#x9AA4;2](.gitbook/assets/image%20%288%29.png)
+![步骤2](.gitbook/assets/image %288%29.png)步骤1
 
-![&#x6B65;&#x9AA4;3&#x3001;4&#x3001;5](.gitbook/assets/image%20%2820%29.png)
+---
+
+
+
+![步骤3、4、5](.gitbook/assets/image %2820%29.png)
+
+步骤3、4、5
+
+---
 
 提交之后，可以看到如下的情况。
 
-![&#x6211;&#x4EEC;&#x4E0A;&#x9762;&#x586B;&#x7684;&#x7B80;&#x77ED;&#x7684;&#x8BF4;&#x660E;&#x76F4;&#x63A5;&#x663E;&#x793A;&#x5728;&#x6587;&#x4EF6;&#x540D;&#x7684;&#x53F3;&#x8FB9;&#xFF0C;&#x800C;&#x8BE6;&#x7EC6;&#x8BF4;&#x660E;&#x9700;&#x8981;&#x5C06;&#x9F20;&#x6807;&#x79FB;&#x8FC7;&#x53BB;&#x6216;&#x8005;&#x70B9;&#x51FB;&#x540E;&#x624D;&#x80FD;&#x663E;&#x793A;&#x3002;](.gitbook/assets/image%20%2823%29.png)
+![我们上面填的简短的说明直接显示在文件名的右边，而详细说明需要将鼠标移过去或者点击后才能显示。](.gitbook/assets/image %2823%29.png)
 
 ## 第四步 发起Pull Request
 
@@ -104,15 +114,15 @@ Pull Request是GitHub中协作开发的核心，当你发起一个Pull Request�
 
 **对对README文件的修改发起一个Pull Request（并不是病句）**
 
-![&#x53D1;&#x8D77;&#x4E00;&#x4E2A;&#x65B0;&#x7684;pull request](.gitbook/assets/image%20%2821%29.png)
+![发起一个新的pull request](.gitbook/assets/image %2821%29.png)
 
-![&#x9009;&#x62E9;&#x4F60;&#x505A;&#x51FA;&#x4FEE;&#x6539;&#x7684;&#x5206;&#x652F;&#xFF0C;&#x5E76;&#x4E0E;master\(&#x4E3B;&#x5E72;\)&#x505A;&#x51FA;&#x6BD4;&#x8F83;](.gitbook/assets/image%20%2832%29.png)
+![选择你做出修改的分支，并与master\(主干\)做出比较](.gitbook/assets/image %2832%29.png)
 
-![&#x89C2;&#x5BDF;&#x4FEE;&#x6539;&#x7684;&#x90E8;&#x5206;&#xFF0C;&#x786E;&#x5B9A;&#x8FD9;&#x4E2A;&#x662F;&#x4F60;&#x60F3;&#x8981;&#x7684;&#x4FEE;&#x6539;\(&#x7EFF;&#x8272;&#x4E3A;&#x6DFB;&#x52A0;&#xFF0C;&#x7EA2;&#x8272;&#x4E3A;&#x5220;&#x9664;\)](.gitbook/assets/image%20%2814%29.png)
+![观察修改的部分，确定这个是你想要的修改\(绿色为添加，红色为删除\)](.gitbook/assets/image %2814%29.png)
 
-![&#x786E;&#x8BA4;&#x4E4B;&#x540E;&#x70B9;&#x51FB;Create pull request&#x6309;&#x94AE;&#x53D1;&#x8D77;pull request&#x8BF7;&#x6C42;](.gitbook/assets/image%20%2816%29.png)
+![确认之后点击Create pull request按钮发起pull request请求](.gitbook/assets/image %2816%29.png)
 
-![&#x586B;&#x5199;pull request&#x7684;&#x6807;&#x9898;&#x4EE5;&#x53CA;&#x63CF;&#x8FF0;&#xFF0C;&#x70B9;&#x51FB;&#x53F3;&#x4E0B;&#x89D2;&#x7EFF;&#x8272;&#x6309;&#x94AE;&#x8FDB;&#x884C;&#x63D0;&#x4EA4;](.gitbook/assets/image%20%2818%29.png)
+![填写pull request的标题以及描述，点击右下角绿色按钮进行提交](.gitbook/assets/image %2818%29.png)
 
 ## 第五步 合并Pull Request
 
@@ -122,11 +132,11 @@ Pull Request是GitHub中协作开发的核心，当你发起一个Pull Request�
 2. 点击 **Confirm merge**.
 3. 删除readme-edit分支，因为它的更改已合并，点击紫色框中的删除分支按钮
 
-![&#x6B65;&#x9AA4;1&#x4E2D;&#x7684;Merge pull request&#x6309;&#x94AE;&#x53EF;&#x4EE5;&#x5BF9;&#x5206;&#x652F;&#x8FDB;&#x884C;&#x5408;&#x5E76;&#xFF0C;&#x4E0B;&#x9762;&#x7684;&#x8F93;&#x5165;&#x6846;&#x53EF;&#x4EE5;&#x5BF9;&#x8FD9;&#x4E2A;pull request&#x8FDB;&#x884C;&#x8BC4;&#x8BBA;](.gitbook/assets/image%20%287%29.png)
+![步骤1中的Merge pull request按钮可以对分支进行合并，下面的输入框可以对这个pull request进行评论](.gitbook/assets/image %287%29.png)
 
-![&#x6B65;&#x9AA4;2](.gitbook/assets/image%20%2827%29.png)
+![步骤2](.gitbook/assets/image %2827%29.png)
 
-![&#x6B65;&#x9AA4;3 &#x8FC7;&#x6CB3;&#x62C6;&#x6865;](.gitbook/assets/image%20%281%29.png)
+![步骤3 过河拆桥](.gitbook/assets/image %281%29.png)
 
 关于GitHub使用的简单教程就到这里，在其他部分会有更加高级的用法，比如实战等等。请查看其他部分。
 

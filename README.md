@@ -22,8 +22,6 @@ Git有一个强大功能，就是远程仓库，我们可以找一台服务器�
 
 > GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-
-
 ## 注册GitHub账号
 
 注册的细节就不在这里给出，自己摸索去。
