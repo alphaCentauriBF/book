@@ -35,7 +35,7 @@ alphaCentauriBF在github上创建了一个仓库，并包含上面的C语言代�
 > ![](/assets/import00.png)
 >
 > 找到想要克隆的项目的网址，可以点击蓝色的按钮直接在desktop打开
-
+>
 > ![](/assets/import0.png)若是点击上面的蓝色按钮没有反应，可以自己手动填写，具体的打开方式为file-&gt;clone respository-&gt;URL
 >
 > 在下面的Local path选择需要存放在本地的地址
@@ -49,12 +49,12 @@ clone下来后即可进行一顿操作，在这里我用记事本对代码做了
 > ![](/assets/import9.png)在左上角的Current respository可以选择当前操作的仓库，文本框中绿色部分显示出了做了什么修改。
 >
 > 在左下角填写信息后即可commit
-
+>
 > ![](/assets/import10.png)提交commit后即可push orgin，即推送到远程\(github.com\)
 >
 > 正常情况下会推送成功
-
-> ![](/assets/import11.png)直接推送发现有这个提示，因为自己没有权限，所以我们应该发起pull request
+>
+> ![](/assets/import11.png)
 >
 > 如果推送不成功，出现这个提示，请确认自己的项目是从作者处fork了一个副本，然后clone的是在自己的主页中fork的版本的链接。否则权限不满足\(因为此时没有直接合并到作者的仓库的权限,只能推送到自己fork的仓库上\)。
 
